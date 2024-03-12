@@ -1,4 +1,4 @@
-.navbar-strore {
+.navbar-store {
     padding-top: 15px;
 
     @include media-breakpoint-down(md) {
@@ -29,9 +29,9 @@
         color: white;
         margin-left: -10px;
     }
-}
 
-.navbar-fixed-top.scrolled {
-    background-color: #fff9f9 !important;
-    transition: background-color 200ms linear;
+    .navbar-fixed-top.scrolled {
+        background-color: #fff9f9 !important;
+        transition: background-color 200ms linear;
+    }
 }
